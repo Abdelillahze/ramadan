@@ -1,0 +1,52 @@
+* {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+}
+
+
+html {
+    margin: 0;
+    background: url('https://images3.alphacoders.com/924/thumb-1920-924667.jpg');
+    transform: scale(80%, 80%);
+    background-repeat: repeat;
+}
+
+html::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(0 0 0 / .5);
+    z-index: -1;
+}
+div {
+    color: white;
+}
+
+.grid1 {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px 15px;
+    grid-template-rows: repeat(2, 1fr);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d3a {
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
