@@ -5,7 +5,7 @@ var day = document.getElementById('day'),
     second = document.getElementById('second');
 
 setInterval(() => {
-    var dateDay = (31 - new Date().getDate()) + (30 - (31 - new Date('apr 13').getDate())),
+    var dateDay = 13 - new Date().getDate()
         dateHour = 24 - new Date().getHours(),
         dateMin = 59 - new Date().getMinutes(),
         dateSeconds = 60 - new Date().getSeconds();
