@@ -23,22 +23,8 @@ div {
     color: white;
 }
 
-.grid1 {
-    width: 500px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px 15px;
-    grid-template-rows: repeat(2, 1fr);
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.grid1 div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hh {
+    text-align: center;   
 }
 
 .d3a {
