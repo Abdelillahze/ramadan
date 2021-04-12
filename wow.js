@@ -1,21 +1,4 @@
-var day = document.getElementById('day'),
-    hour = document.getElementById('hour'),
-    min = document.getElementById('min'),
-    d3a = document.getElementById('d3a'),
-    second = document.getElementById('second');
-
-setInterval(() => {
-    var dateDay = 13 - new Date().getDate()
-        dateHour = 24 - new Date().getHours(),
-        dateMin = 59 - new Date().getMinutes(),
-        dateSeconds = 60 - new Date().getSeconds();
-
-    day.innerHTML = dateDay;
-    hour.innerHTML = dateHour;
-    min.innerHTML = dateMin;
-    second.innerHTML = dateSeconds;
-})
-
+var d3a = document.getElementById('d3a'),
 
 var ad3iya = [ 'اللَّهُمَّ أنَْتَ رَبيِّ لَا إلِهََ إلَِّا أنَتَ، خَلَقْتنَيِ وَأنََا عَبدُْكَ، وَأنََا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.',
     'اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ وَارْحَمْنِي إِنَّك أَنْتَ الْغَفُورُ الرَّحِيمُ. ',
