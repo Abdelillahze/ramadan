@@ -4,14 +4,14 @@
 }
 
 
-html {
+body {
     margin: 0;
+    height: 100vh;
     background: url('https://images3.alphacoders.com/924/thumb-1920-924667.jpg');
-    transform: scale(80%, 80%);
-    background-repeat: repeat;
+
 }
 
-html::before{
+body::before{
     content: '';
     width: 100%;
     height: 100%;
@@ -25,7 +25,7 @@ div {
 
 .hh {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -41,5 +41,5 @@ div {
 }
 
 @media (max-width: 767px) {
-    transform: scale(150%, 150%)   
+
 }
