@@ -27,7 +27,7 @@ div {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 .d3a {
@@ -37,5 +37,5 @@ div {
     position: absolute;
     top: 35%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 0);
 }
